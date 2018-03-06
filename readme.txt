@@ -1,2 +1,2 @@
-Git is a version contrlo system.
+Git is a 成功的 version contrlo system.
 Git is free software.
