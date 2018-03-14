@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/1.css">
+    <link rel="stylesheet" href="assets/css/2.css">
+    <link rel="stylesheet" href="assets/css/3.css">
+    <link rel="stylesheet" href="assets/css/4.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css"/>
+    <style type="text/css">
+        body {
+            font-family: tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu {
+            background: #24292E;
+            border: none;
+            height: auto;
+            position: fixed;
+            z-index: 9999;
+            width: 100%;
+
+        }
+
+        .menu ul {
+            border: none;
+        }
+
+        .mark {
+            float: left;
+            min-width: 500px;
+            padding: 0;
+            height: 53px;
+            line-height: 53px;
+            text-align: center;
+            border: none;
+        }
+
+        .menu-1, .menu-2, .menu-3, .menu-4 {
+            float: right;
+            min-width: 200px;
+            padding: 0;
+            height: 53px;
+            line-height: 53px;
+            text-align: center;
+            border: none;
+        }
+
+        .menu > ul li a {
+            color: #c7d1d8;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .menu > ul li a:hover {
+            color: white;
+        }
+
+        .menu > ul li:hover {
+            border-bottom: 2px solid #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="menu">
+    <ul>
+        <li class="mark"><a href="#">Job Bridge</a></li>
+        <li class="menu-1"><a href="#"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;我</a></li>
+        <li class="menu-2"><a href="#"><i class="fa fa-suitcase" aria-hidden="true"></i>&nbsp;职位</a></li>
+        <li class="menu-3"><a href="#"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;人脉</a></li>
+        <li class="menu-4"><a href="#"><i class=" fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;主页</a></li>
+    </ul>
+</div>
+<br>
+<div class="application-outlet ">
+    <div class="authentication-outlet launchpad-cp-enabled">
+        <div id="mynetwork" class="extended">
+            <div class="body">
+                <div id="ember3210" class="ember-view"></div>
+
+                <!---->
+                <div class="neptune-grid three-column ghost-animate-in">
+                    <div class="ad-banner-container is-header-zone ember-view"></div>
+
+                    <!--查看好友的功能-->
+                    <aside role="presentation" class="left-rail">
+                        <div id="ember3234" class="sticky ember-view"
+                             style="height: 190px; width: 216px; margin: 0px auto;">
+                            <div class="left-rail-container">
+                                <div id="ember3239" class="mn-connections-summary ember-view">
+                                    <div class="mn-connections-summary__no-bottom-border-radius container-with-shadow ph0 pb0">
+                                        <a data-control-name="connections"
+                                           href="https://www.linkedin.com/mynetwork/invite-connect/connections/"
+                                           id="ember3240" class="link-without-hover-state ember-view">
+                                            <h3 class="mn-connections-summary__count Sans-34px-black-85% mt3">0</h3>
+                                        </a>
+                                        <h3 aria-hidden="true"
+                                            class="mn-connections-summary__title Sans-17px-black-85%-semibold-dense mt2 ph3">
+                                            我的好友
+                                        </h3>
+
+                                        <a data-control-name="connections"
+                                           href="https://www.linkedin.com/mynetwork/invite-connect/connections/"
+                                           id="ember3241"
+                                           class="mn-connections-summary__see-all Sans-15px-black-85%-semibold inline-block mt1 mb4 ph3 ember-view">
+                                            查看全部
+                                        </a>
+                                        <!---->
+                                        <a href="#" data-control-name="abi"
+                                           class="mn-connections-summary__abi-entry Sans-15px-black-85%-semibold ph3 pt3 pb4"
+                                           data-ember-action="" data-ember-action-3242="3242">
+                                            拓展职场人脉
+                                        </a>
+                                    </div>
+
+                                    <!----></div>
+                            </div>
+
+                        </div>
+                    </aside>
+                    <!--查看好友的功能-->
+
+                    <div role="main" class="core-rail">
+                        <!--管理添加好友邀请的功能-->
+                        <section class="mn-invitations-preview Elevation-2dp">
+                            <div class="mn-invitations-preview__header">
+                                <h3 class="Sans-19px-black-70%-open">
+                                    没有未回复的邀请
+                                </h3>
+
+                                <a data-control-name="manage_all_invites"
+                                   href="https://www.linkedin.com/mynetwork/invitation-manager/" id="ember3213"
+                                   class="mn-invitations-preview__view-sent Sans-15px-black-55% mlA ember-view"> 管理全部邀请
+                                </a>
+                            </div>
+                        </section>
+                        <!--管理添加好友邀请的功能-->
+
+                        <!--添加朋友的功能-->
+                        <div id="ember3218" class="ember-view">
+                            <section id="ember3223" class="mn-abi-form ember-view">
+                                <section role="main" class="full-width">
+                                    <div tabindex="-1" class="mn-abi-form__container container-with-shadow">
+                                        <div>
+                                            <div class="mn-abi-form__content--promo ph3">
+                                                <div class="mn-abi-form__core-header-graphic mt4 inline-block" >
+                                                    <div class="fa fa-book fa-3x"> </div>
+                                                </div>
+                                                <h2 class="mn-abi-form__header text-align-center mb4 ph3 inline-block v-align-top mt4" >添加朋友</h2>
+                                                <input type="text" placeholder="朋友的名称" class="mn-abi-form__input" id="userstudent">
+                                               <!--需要补充js文件-->
+                                                <button  class="mn-abi-form__primary-btn button-secondary-medium mb2" onclick="#">
+                                                    查找
+                                                </button>
+
+                                            </div>
+                                            <br>
+                                        </div>
+                                        <!---->    </div>
+                                </section>
+
+
+                            </section>
+                        </div>
+                        <!--添加朋友的功能-->
+
+                        <!--人脉信息页面-->
+                        <div id="ember3249" class="ember-view">
+                            <section class="mn-pymk-list Elevation-2dp">
+                                <h3 class="mn-pymk-list__header Sans-19px-black-70%-open">
+                                    猜您认识
+                                </h3>
+                                <!--这里是放人脉信息的页面-->
+
+                                <ul class="mn-pymk-list__cards">
+                                    <li class="mn-pymk-list__card display-flex flex-column">
+                                        <div id="ember3260" class="pymk-card ember-view">
+                                            <button data-control-name="dismiss" class="pymk-card__close-btn"
+                                                    data-ember-action="" data-ember-action-3261="3261">
+                                                <span class="svg-icon-wrap"><span class="visually-hidden">忽略Linda Student</span><li-icon
+                                                        aria-hidden="true" type="cancel-icon" size="small"><svg
+                                                        viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+                                                        preserveAspectRatio="xMinYMin meet" class="artdeco-icon"
+                                                        focusable="false"><path
+                                                        d="M13,4.32L9.31,8,13,11.69,11.69,13,8,9.31,4.31,13,3,11.69,6.69,8,3,4.31,4.31,3,8,6.69,11.68,3Z"
+                                                        class="small-icon"
+                                                        style="fill-opacity: 1"></path></svg></li-icon></span>
+                                            </button>
+
+                                            <a data-control-name="pymk_profile"
+                                               href="https://www.linkedin.com/in/linda-student-2771a392/" id="ember3262"
+                                               class="pt3 ember-view"> <img
+                                                    class="lazy-image EntityPhoto-circle-7 ghost-person loaded"
+                                                    alt="Linda Student的照片"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                                            </a>
+                                            <div class="pymk-card__details pv0 ph2 text-align-center mt1">
+                                                <a data-control-name="pymk_profile"
+                                                   href="https://www.linkedin.com/in/linda-student-2771a392/"
+                                                   id="ember3263" class="pymk-card__link ember-view"> <span
+                                                        class="visually-hidden">会员姓名</span>
+                                                    <span class="pymk-card__name pymk-card__name--card-layout block m0 Sans-15px-black-85%-semibold">
+      Linda Student
+    </span>
+                                                    <span class="visually-hidden">会员职业</span>
+                                                    <span class="pymk-card__occupation pymk-card__occupation--card-layout block m0 Sans-13px-black-55%">
+      Student at 四川大学
+    </span>
+                                                </a>
+                                                <!---->
+                                            </div>
+
+                                            <div class="pymk-card__action-container pt1 pb3 ph0">
+                                                <button data-control-name="invite" class="button-secondary-small"
+                                                        data-ember-action="" data-ember-action-3271="3271">
+                                                    <span aria-hidden="true">加为好友</span>
+                                                    <span class="visually-hidden">
+      邀请Linda Student成为好友
+    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mn-pymk-list__card display-flex flex-column">
+                                        <div id="ember3273" class="pymk-card ember-view">
+                                            <a data-control-name="pymk_profile"
+                                               href="https://www.linkedin.com/in/%E4%BA%91%E9%B9%8F-%E6%9D%A8-0863a8151/"
+                                               id="ember3275" class="pt3 ember-view"> <img
+                                                    class="lazy-image EntityPhoto-circle-7 loaded" alt="杨云鹏的照片"
+                                                    src="assets/img/index/bg1.jpg">
+                                            </a>
+                                            <div class="pymk-card__details pv0 ph2 text-align-center mt1">
+                                                <a data-control-name="pymk_profile"
+                                                   href="https://www.linkedin.com/in/%E4%BA%91%E9%B9%8F-%E6%9D%A8-0863a8151/"
+                                                   id="ember3276" class="pymk-card__link ember-view"> <span
+                                                        class="visually-hidden">会员姓名</span>
+                                                    <span class="pymk-card__name pymk-card__name--card-layout block m0 Sans-15px-black-85%-semibold">
+      杨云鹏
+    </span>
+                                                    <span class="visually-hidden">会员职业</span>
+                                                    <span class="pymk-card__occupation pymk-card__occupation--card-layout block m0 Sans-13px-black-55%">
+      四川大学 - 学生
+    </span>
+                                                </a>
+                                                <!---->
+                                            </div>
+
+                                            <div class="pymk-card__action-container pt1 pb3 ph0">
+                                                <button data-control-name="invite" class="button-secondary-small"
+                                                        data-ember-action="" data-ember-action-3278="3278">
+                                                    <span aria-hidden="true">加为好友</span>
+                                                    <span class="visually-hidden">
+      邀请杨云鹏成为好友
+    </span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                                <!----></section>
+                        </div>
+                        <!--人脉信息页面-->
+
+                    </div>
+
+                    <aside role="presentation" class="right-rail">
+                        <div id="ember3291" class="sticky ember-view"
+                             style="height: 376px; width: 312px; margin: 0px auto;">
+                            <div class="right-rail-container">
+                                <!---->
+                                <section id="ember3292" class="ad-banner-container ember-view">
+                                    <img src="assets/img/index/bg1.jpg" scrolling="no" title="Jobbrige"
+                                         class="ad-banner" width="300" height="250">
+                                </section>
+
+                                <div id="ember3293" class="nav-footer right-triggered ember-view">
+                                    <div id="ember3294" class="ember-view">
+                                        <div role="contentinfo">
+                                            <ul class="nav-right-rail-links">
+                                                <li class="nav-right-rail-links__item inline-block ml5">
+                                                    <a data-control-name="rightfooter.about" target="_blank"
+                                                       href="index.html" id="rightfooter-about"
+                                                       class="nav-footer__text-link Sans-13px-black-55% ember-view">
+                                                        <span>关于</span>
+                                                    </a>
+                                                </li>
+                                                <p id="rightfooter-default_copyright"
+                                                   class="nav-footer__copyright Sans-13px-black-55% text-align-center clear-both">
+                                                    <span class="svg-icon-wrap"></span>
+                                                    Jobbridge © 2018 年
+                                                </p>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </aside>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!---->
+    <script src="assets/js/renmai.js"></script>
+</div>
+
+</body>
+</html>
